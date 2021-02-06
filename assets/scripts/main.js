@@ -21,7 +21,12 @@ var slider = document.getElementById('volume-slider');
     //sliderDiv = document.getElementById("volume-number").value;
 
 num.onchange = function() {
-    slider.value = num .value;
+    slider.value = num.value;
+  
+}
+
+slider.onchange = function() {
+    num.value = slider.value;
   
 }
 
