@@ -1,5 +1,6 @@
 // main.js
 
+alert("in");
 document.getElementById("radio-car-horn").addEventListener("click", playHorn);
 
 
