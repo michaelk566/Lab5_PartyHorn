@@ -1,12 +1,23 @@
 // main.js
-/*
+
 document.getElementById("radio-car-horn").addEventListener("click", playHorn);
 
 
 function playHorn(){
  alert("worked");
 }
-*/
+
+document.getElementById("radio-air-horn").addEventListener("click", help);
+
+
+function playHorn(){
+ alert("worked");
+}
+
+
+function help(){
+ alert("help");
+}
 
 var audio = document.getElementById('horn-sound');
 
@@ -18,11 +29,13 @@ var button = document.getElementById("honk-btn");
 
 var radio = document.getElementById("radio-air-horn-container")
 
+/*
 function display() {
   if (document.getElementById("radio-air-horn").checked) {
     alert("yo");
   }
 }
+*/
 num.onchange = function() {
     slider.value = num.value;
   
