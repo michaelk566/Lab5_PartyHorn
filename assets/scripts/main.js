@@ -1,6 +1,6 @@
 // main.js
 
-alert("test8");
+alert("test9");
 
 
 var audio = document.getElementById('horn-sound');
@@ -39,7 +39,7 @@ function isParty(){
 
 num.oninput = function() {
     slider.value = num.value;
-    //audio.volume = Number(num.value);
+    audio.volume = Number(num.value);
  
     if(num.value == 0){
       button.disabled = true;
@@ -73,7 +73,7 @@ num.oninput = function() {
 
 slider.oninput = function() {
     num.value = slider.value;
-   // audio.volume = Number(slider.value);
+    audio.volume = Number(slider.value);
    if(slider.value == 0){
       button.disabled = true;
      
