@@ -12,6 +12,9 @@ function playHorn(){
 }
 */
 
+var audio = document.getElementById('horn-sound');
+audio.play();
+
 var num = document.getElementById('volume-number');
 
 var slider = document.getElementById('volume-slider');
