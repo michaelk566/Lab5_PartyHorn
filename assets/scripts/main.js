@@ -71,6 +71,6 @@ slider.onchange = function() {
 }
 
 button.onchange = function(){
-  audio.play();
+  audio.play().preventDefault();
 }
 
