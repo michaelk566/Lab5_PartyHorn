@@ -1,8 +1,5 @@
 // main.js
 
-alert("test11");
-
-
 var audio = document.getElementById('horn-sound');
 
 var num = document.getElementById('volume-number');
