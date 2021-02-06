@@ -4,5 +4,5 @@ document.getElementById("honk-btn-container").addEventListener("click", playHorn
 
 function playHorn(){
  alert("worked");
-  
+  document.getElementById("horn-sound").play();
 }
