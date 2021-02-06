@@ -1,4 +1,5 @@
 // main.js
 
-// TODO
-//
+var num = document.getElementById("volume-number");
+alert(num);
+
