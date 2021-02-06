@@ -26,15 +26,15 @@ num.onchange = function() {
     }
     
     else if(num.value <= 66 && num.value >= 34){
-      //document.getElementById('volume-image').src = "./assets/media/icons/volume-level-2.svg";
+      document.getElementById('volume-image').src = "./assets/media/icons/volume-level-2.svg";
       
     }
   
-  /*
+  
     else if(num.value > 0){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
     }
-  
+  /*
     else{
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-0.svg";
     }
