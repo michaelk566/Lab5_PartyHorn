@@ -69,8 +69,8 @@ slider.onchange = function() {
     }
   
 }
-
-button.onchange = function(){
-  audio.play().preventDefault();
-}
+button.addEventListener("click", function(event){
+  audio.play();
+  event.preventDefault()
+});
 
