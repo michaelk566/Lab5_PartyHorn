@@ -15,13 +15,12 @@ var num = document.getElementById('volume-number');
 var slider = document.getElementById('volume-slider');
 
 var button = document.getElementById("honk-btn");
-/*
+
 var radio = document.getElementById("radio-air-horn-container")
 
-if (document.getElementById("radio-car-horn-container").checked) {
+if (document.getElementById("radio-car-horn").checked) {
   alert("yo");
 }
-*/
 num.onchange = function() {
     slider.value = num.value;
   
