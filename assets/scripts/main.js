@@ -14,7 +14,7 @@ function playHorn(){
  
 }
 */
-
+document.getElementById('volume-image').src = "./assets/media/icons/volume-level-2.svg";
 var num = document.getElementById('volume-number');
 
 var slider = document.getElementById('volume-slider');
