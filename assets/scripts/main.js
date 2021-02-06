@@ -17,18 +17,21 @@ var radio = document.getElementById("radio-air-horn-container");
 var sImage = document.getElementById("sound-image");
 
 
-document.getElementById("radio-air-horn").addEventListener("click", help);
+document.getElementById("radio-air-horn").addEventListener("click", isAir);
 
 
-function help(){
+function isAir(){
  alert("air");
+ audio.src = "./assets/media/audio/air-horn.mp3";
+ 
 }
 
-document.getElementById("radio-car-horn").addEventListener("click", playHorn);
+document.getElementById("radio-car-horn").addEventListener("click", isCar);
 
 
-function playHorn(){
+function isCar(){
  alert("car");
+ audio.src = "./assets/media/audio/car-horn.mp3";
 }
 
 document.getElementById("radio-party-horn").addEventListener("click", isParty);
@@ -36,6 +39,7 @@ document.getElementById("radio-party-horn").addEventListener("click", isParty);
 
 function isParty(){
  alert("party");
+ audio.src = "./assets/media/audio/party-horn.mp3";
 }
 
 
@@ -66,7 +70,7 @@ num.onchange = function() {
 
 slider.onchange = function() {
     num.value = slider.value;
-    //audio.volume = Number(slider.value);
+   // audio.volume = Number(slider.value);
  
     if(slider.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
