@@ -1,7 +1,6 @@
 // main.js
 
 //document.getElementById("honk-btn-container").addEventListener("click", playHorn);
-document.getElementById("volume-number").value = "36";
 
 /*
 function playHorn(){
