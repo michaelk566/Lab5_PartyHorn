@@ -3,8 +3,8 @@
 //document.getElementById("honk-btn-container").addEventListener("click", playHorn);
 document.getElementById("volume-slider").value = "75";
 
-var num = document.getElementById("volume-slider").value;
-document.getElementById("volume-number").value = num;
+//var num = document.getElementById("volume-slider").value;
+//document.getElementById("volume-number").value = num;
 /*
 function playHorn(){
   document.getElementById("volume-slider").value = "75";
