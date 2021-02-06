@@ -1,6 +1,6 @@
 // main.js
 
-alert("test1");
+alert("test2");
 
 
 
@@ -41,7 +41,7 @@ function isParty(){
 
 num.onchange = function() {
     slider.value = num.value;
-    audio.volume = Number(num.value);
+    //audio.volume = Number(num.value);
     if(num.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
@@ -66,7 +66,7 @@ num.onchange = function() {
 
 slider.onchange = function() {
     num.value = slider.value;
-    audio.volume = Number(slider.value);
+    //audio.volume = Number(slider.value);
  
     if(slider.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
