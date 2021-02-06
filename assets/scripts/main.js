@@ -2,6 +2,7 @@
 
 //document.getElementById("honk-btn-container").addEventListener("click", playHorn);
 //document.getElementById("volume-slider").value = "75";
+/*
 var num = document.getElementById("volume-number").value;
 alert(num);
 
