@@ -19,6 +19,13 @@ var num = document.getElementById('volume-number');
 
 var slider = document.getElementById('volume-slider');
 
+var button = document.getElementById("honk-btn");
+
+button.onchange = function(){
+  audio.play();
+  
+  
+}
 
 num.onchange = function() {
     slider.value = num.value;
@@ -47,7 +54,7 @@ num.onchange = function() {
 
 slider.onchange = function() {
     num.value = slider.value;
-    audio.play();
+  
        if(slider.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
