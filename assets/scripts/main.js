@@ -13,7 +13,6 @@ function playHorn(){
 */
 
 var audio = document.getElementById('horn-sound');
-audio.play();
 
 var num = document.getElementById('volume-number');
 
@@ -55,7 +54,7 @@ num.onchange = function() {
 slider.onchange = function() {
     num.value = slider.value;
   
-       if(slider.value >= 67){
+    if(slider.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
     
