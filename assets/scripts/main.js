@@ -22,7 +22,7 @@ var slider = document.getElementById('volume-slider');
 
 var button = document.getElementById("honk-btn");
 
-var radio = document.getElementById("radio-air-horn-container")
+var radio = document.getElementById("radio-air-horn-container");
 
 /*
 function display() {
