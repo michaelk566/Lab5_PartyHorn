@@ -21,21 +21,21 @@ document.getElementById("radio-air-horn").addEventListener("click", isAir);
 
 
 function isAir(){
- alert("air");
  audio.src = "./assets/media/audio/air-horn.mp3";
+ sImage.src = "./assets/media/images/air-horn.svg";
  
 }
 document.getElementById("radio-car-horn").addEventListener("click", isCar);
 
 function isCar(){
- alert("car");
  audio.src = "./assets/media/audio/car-horn.mp3";
+ sImage.src = "./assets/media/images/car.svg";
 }
 document.getElementById("radio-party-horn").addEventListener("click", isParty);
 
 function isParty(){
- alert("party");
  audio.src = "./assets/media/audio/party-horn.mp3";
+ sImage.src = "./assets/media/images/party-horn.svg";
 }
 
 num.onchange = function() {
