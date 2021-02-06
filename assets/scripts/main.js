@@ -1,6 +1,6 @@
 // main.js
 
-alert("new");
+alert("first");
 
 document.getElementById("radio-air-horn").addEventListener("click", help);
 
