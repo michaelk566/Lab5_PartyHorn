@@ -15,11 +15,13 @@ function playHorn(){
 }
 */
 
-var slide = document.getElementById('volume-number');
+var num = document.getElementById('volume-number');
+
+var slider = document.getElementById('volume-slider');
     //sliderDiv = document.getElementById("volume-number").value;
 
-slide.onchange = function() {
-    //sliderDiv = this.value;
-  alert(slide.value);
+num.onchange = function() {
+    slider.value = num .value;
+  
 }
 
