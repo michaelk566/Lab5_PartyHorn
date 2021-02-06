@@ -28,6 +28,7 @@ num.onchange = function() {
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-2.svg";
       
     }
+  /*
     else if(slider.value >0){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
     }
@@ -35,7 +36,7 @@ num.onchange = function() {
     else{
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-0.svg";
     }
-    
+    */
   
   
 }
