@@ -35,11 +35,11 @@ num.onchange = function() {
     else if(num.value > 0){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
     }
-  /*
+  
     else{
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-0.svg";
     }
-    */
+    
   
   
 }
