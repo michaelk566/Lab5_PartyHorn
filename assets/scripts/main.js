@@ -18,7 +18,7 @@ var button = document.getElementById("honk-btn");
 
 var radio = document.getElementById("radio-air-horn-container")
 
-if (document.getElementById("radio-car-horn").checked) {
+if (document.getElementById("radio-air-horn").checked) {
   alert("yo");
 }
 num.onchange = function() {
