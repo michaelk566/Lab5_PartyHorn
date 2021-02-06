@@ -1,6 +1,6 @@
 // main.js
 
-alert("test7");
+alert("test8");
 
 
 var audio = document.getElementById('horn-sound');
@@ -37,7 +37,7 @@ function isParty(){
  sImage.src = "./assets/media/images/party-horn.svg";
 }
 
-num.onchange = function() {
+num.oninput = function() {
     slider.value = num.value;
     //audio.volume = Number(num.value);
  
@@ -71,7 +71,7 @@ num.onchange = function() {
   
 }
 
-slider.onchange = function() {
+slider.oninput = function() {
     num.value = slider.value;
    // audio.volume = Number(slider.value);
    if(slider.value == 0){
