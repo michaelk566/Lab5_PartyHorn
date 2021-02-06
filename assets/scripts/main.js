@@ -63,14 +63,11 @@ num.oninput = function() {
     else{
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-0.svg";
     }
-    
-  
-  
 }
 
 slider.oninput = function() {
-    num.value = slider.value;
-    audio.volume = slider.value/100;
+   num.value = slider.value;
+   audio.volume = slider.value/100;
    if(slider.value == 0){
       button.disabled = true;
      
@@ -81,13 +78,10 @@ slider.oninput = function() {
     if(slider.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
-    
     else if(slider.value <= 66 && num.value >= 34){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-2.svg";
       
     }
-  
-  
     else if(slider.value > 0){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
     }
@@ -95,7 +89,6 @@ slider.oninput = function() {
     else{
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-0.svg";
     }
-  
 }
 button.addEventListener("click", function(event){
   event.preventDefault();
