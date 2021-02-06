@@ -25,23 +25,18 @@ function isAir(){
  audio.src = "./assets/media/audio/air-horn.mp3";
  
 }
-
 document.getElementById("radio-car-horn").addEventListener("click", isCar);
-
 
 function isCar(){
  alert("car");
  audio.src = "./assets/media/audio/car-horn.mp3";
 }
-
 document.getElementById("radio-party-horn").addEventListener("click", isParty);
-
 
 function isParty(){
  alert("party");
  audio.src = "./assets/media/audio/party-horn.mp3";
 }
-
 
 num.onchange = function() {
     slider.value = num.value;
