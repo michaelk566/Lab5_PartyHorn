@@ -34,16 +34,10 @@ var button = document.getElementById("honk-btn");
 
 var radio = document.getElementById("radio-air-horn-container");
 
-/*
-function display() {
-  if (document.getElementById("radio-air-horn").checked) {
-    alert("yo");
-  }
-}
-*/
+
 num.onchange = function() {
     slider.value = num.value;
-  
+    audio.volume = num.value;
     if(num.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
@@ -68,7 +62,8 @@ num.onchange = function() {
 
 slider.onchange = function() {
     num.value = slider.value;
-  
+    audio.volume = slider.value;
+ 
     if(slider.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
