@@ -3,8 +3,6 @@
 //document.getElementById("honk-btn-container").addEventListener("click", playHorn);
 document.getElementById("volume-number").value = "10";
 
-//var num = document.getElementById("volume-slider").value;
-//document.getElementById("volume-number").value = num;
 /*
 function playHorn(){
   document.getElementById("volume-slider").value = "75";
@@ -18,10 +16,27 @@ document.getElementById('volume-image').src = "./assets/media/icons/volume-level
 var num = document.getElementById('volume-number');
 
 var slider = document.getElementById('volume-slider');
-    //sliderDiv = document.getElementById("volume-number").value;
+
 
 num.onchange = function() {
     slider.value = num.value;
+  /*
+    if(slider.value>=67){
+      
+    }
+    else if(slider.value<=66 && slider.value>=34){
+      
+      
+    }
+    else if(slider.value >0){
+      
+    }
+  
+    else{
+      
+    }
+    */
+  
   
 }
 
