@@ -1,6 +1,6 @@
 // main.js
 
-alert("first");
+alert("test");
 
 
 
