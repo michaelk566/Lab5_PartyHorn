@@ -70,7 +70,7 @@ slider.onchange = function() {
   
 }
 button.addEventListener("click", function(event){
+  event.preventDefault();
   audio.play();
-  event.preventDefault()
 });
 
