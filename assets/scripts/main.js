@@ -1,7 +1,6 @@
 // main.js
 
-alert("test6");
-
+alert("test7");
 
 
 var audio = document.getElementById('horn-sound');
@@ -41,6 +40,15 @@ function isParty(){
 num.onchange = function() {
     slider.value = num.value;
     //audio.volume = Number(num.value);
+ 
+    if(num.value == 0){
+      button.disabled = true;
+     
+    }
+    else{
+      button.disabled = false;
+    }
+ 
     if(num.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
@@ -66,7 +74,13 @@ num.onchange = function() {
 slider.onchange = function() {
     num.value = slider.value;
    // audio.volume = Number(slider.value);
- 
+   if(slider.value == 0){
+      button.disabled = true;
+     
+    }
+    else{
+      button.disabled = false;
+    }
     if(slider.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-3.svg";
     }
