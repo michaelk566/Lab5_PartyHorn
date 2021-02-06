@@ -22,7 +22,7 @@ num.onchange = function() {
     slider.value = num.value;
   
     if(slider.value >= 67){
-      document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
+      //document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
     }
     /*
     else if(slider.value <= 66 && slider.value >= 34){
