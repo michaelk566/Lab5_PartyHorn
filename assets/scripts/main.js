@@ -1,6 +1,6 @@
 // main.js
 
-alert("test2");
+alert("test4");
 
 
 
