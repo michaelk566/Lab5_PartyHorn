@@ -20,11 +20,7 @@ var slider = document.getElementById('volume-slider');
 
 var button = document.getElementById("honk-btn");
 
-button.onchange = function(){
-  audio.play();
-  
-  
-}
+
 
 num.onchange = function() {
     slider.value = num.value;
@@ -72,5 +68,9 @@ slider.onchange = function() {
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-0.svg";
     }
   
+}
+
+button.onchange = function(){
+  audio.play();
 }
 
