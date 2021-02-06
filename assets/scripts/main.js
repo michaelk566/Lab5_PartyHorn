@@ -13,3 +13,11 @@ function playHorn(){
  // document.getElementById("horn-sound").addEventListener('play');
  
 }
+*/
+
+var slide = document.getElementById('volume-slider'),
+    sliderDiv = document.getElementById("volume-number").value;
+
+slide.onchange = function() {
+    sliderDiv = this.value;
+}
