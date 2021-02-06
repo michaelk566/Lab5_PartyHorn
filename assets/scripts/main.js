@@ -4,7 +4,7 @@
 document.getElementById("volume-slider").value = "75";
 
 var num = document.getElementById("volume-slider").value;
-document.getElementById("volume-number").value = 
+document.getElementById("volume-number").value = num;
 /*
 function playHorn(){
   document.getElementById("volume-slider").value = "75";
