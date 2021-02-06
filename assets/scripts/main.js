@@ -34,6 +34,8 @@ var button = document.getElementById("honk-btn");
 
 var radio = document.getElementById("radio-air-horn-container");
 
+var sImage = document.getElementById("sound-image");
+
 
 num.onchange = function() {
     slider.value = num.value;
