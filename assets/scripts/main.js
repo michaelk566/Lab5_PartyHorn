@@ -15,7 +15,7 @@ function playHorn(){
 }
 */
 
-var slide = document.getElementById('volume-number'),
+var slide = document.getElementById('volume-number');
     //sliderDiv = document.getElementById("volume-number").value;
 
 slide.onchange = function() {
