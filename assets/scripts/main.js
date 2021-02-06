@@ -16,7 +16,6 @@ var num = document.getElementById('volume-number');
 
 var slider = document.getElementById('volume-slider');
 
-document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
 
 num.onchange = function() {
     slider.value = num.value;
