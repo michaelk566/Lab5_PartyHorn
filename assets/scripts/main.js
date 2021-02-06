@@ -1,12 +1,6 @@
 // main.js
 
-alert("in");
-document.getElementById("radio-car-horn").addEventListener("click", playHorn);
-
-
-function playHorn(){
- alert("worked");
-}
+alert("new");
 
 document.getElementById("radio-air-horn").addEventListener("click", help);
 
@@ -14,6 +8,21 @@ document.getElementById("radio-air-horn").addEventListener("click", help);
 function help(){
  alert("air");
 }
+
+document.getElementById("radio-car-horn").addEventListener("click", playHorn);
+
+
+function playHorn(){
+ alert("car");
+}
+
+document.getElementById("radio-party-horn").addEventListener("click", isParty);
+
+
+function isParty(){
+ alert("party");
+}
+
 
 var audio = document.getElementById('horn-sound');
 
