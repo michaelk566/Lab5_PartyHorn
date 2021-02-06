@@ -2,6 +2,21 @@
 
 alert("first");
 
+
+
+var audio = document.getElementById('horn-sound');
+
+var num = document.getElementById('volume-number');
+
+var slider = document.getElementById('volume-slider');
+
+var button = document.getElementById("honk-btn");
+
+var radio = document.getElementById("radio-air-horn-container");
+
+var sImage = document.getElementById("sound-image");
+
+
 document.getElementById("radio-air-horn").addEventListener("click", help);
 
 
@@ -22,19 +37,6 @@ document.getElementById("radio-party-horn").addEventListener("click", isParty);
 function isParty(){
  alert("party");
 }
-
-
-var audio = document.getElementById('horn-sound');
-
-var num = document.getElementById('volume-number');
-
-var slider = document.getElementById('volume-slider');
-
-var button = document.getElementById("honk-btn");
-
-var radio = document.getElementById("radio-air-horn-container");
-
-var sImage = document.getElementById("sound-image");
 
 
 num.onchange = function() {
