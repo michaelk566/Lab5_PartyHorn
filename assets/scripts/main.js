@@ -20,6 +20,6 @@ var slide = document.getElementById('volume-number');
 
 slide.onchange = function() {
     //sliderDiv = this.value;
-  alert(this.value);
+  alert(slide.value);
 }
 
