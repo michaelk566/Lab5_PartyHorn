@@ -1,6 +1,6 @@
 // main.js
 
-alert("test9");
+alert("test10");
 
 
 var audio = document.getElementById('horn-sound');
