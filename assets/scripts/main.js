@@ -1,5 +1,5 @@
 // main.js
 
 var num = document.getElementById("volume-number");
-num = 15;
+num.setAttribute(15)
 
