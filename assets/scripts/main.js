@@ -21,7 +21,7 @@ var slider = document.getElementById('volume-slider');
 num.onchange = function() {
     slider.value = num.value;
   
-    if(slider.value >= 67){
+    if(num.value >= 67){
       document.getElementById('volume-image').src = "./assets/media/icons/volume-level-1.svg";
     }
     /*
